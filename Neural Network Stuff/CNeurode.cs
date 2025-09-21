@@ -455,7 +455,7 @@ public class CNeurode
                 for (int i = 0; i < network.GetLength(0); i++)
                     for (int n = 0; n < network.GetLength(1); n++)
                         for (int v = 0; v < vectorCount; v++)
-                            activationValue += network[i][n].delta * weight[v] + bias[v];
+                            activationValue += network[i][n].delta * weight[v] + bias[v];//One could also use the six quantum states, each state is represented by a index from 0 to 5 mapping a regular bias/weight. //	activationValue += network[i][n].delta * weight[StateToIndex(QuantumState[0])] + bias[StateToIndex(QuantumState[0])];
 
                 activationValue = GetActivationValue(activationValue, type, useThershold);
 
@@ -964,6 +964,7 @@ public class CNeurode
         if (localType == 3 || localType == 4)
         {
             float weight = 0f;
+
             float bias = 0f;
 
             if (type == MergeType.Merge)
