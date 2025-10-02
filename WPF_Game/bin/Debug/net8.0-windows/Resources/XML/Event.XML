@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Event xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>None</Name>
+  <Action>None</Action>
+  <SpawnConditionsEvent>
+    <string>None</string>
+    <string>None</string>
+  </SpawnConditionsEvent>
+  <SpawnConditionsCharacterStat>
+    <Stat>
+      <Name>None</Name>
+      <Value>0</Value>
+      <CharacterStat>true</CharacterStat>
+    </Stat>
+  </SpawnConditionsCharacterStat>
+  <TriggerOnce>true</TriggerOnce>
+</Event>

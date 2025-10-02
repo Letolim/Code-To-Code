@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBiome xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Biome>
+    <Name>Biome01</Name>
+    <ID>0</ID>
+    <Image>!</Image>
+    <EventLoad>
+	 <Name>LesGO</Name>;
+ 	<Action>Action!</Action>;
+ 	<TriggerOnce>true</TriggerOnce>;
+    </EventLoad>
+    <ToolTip>!!!!!</ToolTip>
+    <BaseTileID>10</BaseTileID>
+<TileSheet>
+	<BiomeContent>
+		<TilePath>DungeonTileEmpty</TilePath>
+  	</BiomeContent>
+	<BiomeContent>
+		<TilePath>DungeonTileEmpty0</TilePath>
+  	</BiomeContent>
+	<BiomeContent>
+		<TilePath>DungeonTileEmpty1</TilePath>
+  	</BiomeContent>
+	<BiomeContent>
+		<TilePath>DungeonTileEmpty2</TilePath>
+  	</BiomeContent>
+</TileSheet>
+  </Biome>
+  <Biome>
+    <Name>Biome02</Name>
+    <ID>0</ID>
+    <Image>!</Image>
+    <Event>
+	 <Name>LesGO</Name>;
+ 	<Action>Action!</Action>;
+ 	<TriggerOnce>true</TriggerOnce>;
+    </Event>
+    <ToolTip>!</ToolTip>
+    <BaseTileID>0</BaseTileID>
+    <TileSheet>
+      <BiomeContent>
+        <TilePath>DungeonTileEmpty</TilePath>
+      </BiomeContent>
+      <BiomeContent>
+        <TilePath>DungeonTileEmpty</TilePath>
+      </BiomeContent>
+    </TileSheet>
+  </Biome>
+</ArrayOfBiome>
