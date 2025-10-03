@@ -645,7 +645,7 @@ public class P_System : MonoBehaviour
             this.position = position;
         }
 
-        public void Update(List<Particle> particles, int[][] linkedDimensions, float[][] sumDistance, float[][] sumDirection, float[][] sumForce)
+        public void Update(List<Particle> particles, int[][] linkedDimensions, float[][] sumDistance, float[][] sumDirection, float[][] sumForce)// ++ -- ++ -- ++ bi po bib
         {
             if (isStatic)
                 return;
@@ -1140,4 +1140,5 @@ public class P_System : MonoBehaviour
 //        values[dimensions[i]] /= magnitude;
 
 //    return new Vector(values);
+
 //}
