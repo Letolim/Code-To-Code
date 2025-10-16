@@ -455,8 +455,7 @@ public class CNeurode
                 for (int i = 0; i < network.GetLength(0); i++)
                     for (int n = 0; n < network.GetLength(1); n++)
                         for (int v = 0; v < vectorCount; v++)
-                            activationValue += network[i][n].delta * weight[v] + bias[v];//One could also use the six quantum states, each state is represented by a index from 0 to 5 mapping a regular bias/weight. //	activationValue += network[i][n].delta * weight[StateToIndex(QuantumState[0])] + bias[StateToIndex(QuantumState[0])]; //Side note if done right and first response is "Help me" we are done with this universe ;D (Topics QND and London bridge)
-
+                            activationValue += network[i][n].delta * weight[v] + bias[v];
                 activationValue = GetActivationValue(activationValue, type, useThershold);
 
                 if (activationValue != 0)
@@ -1055,5 +1054,6 @@ public class CNeurode
             return -1;
     }      //Done
 }
+
 
 
