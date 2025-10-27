@@ -1,0 +1,27 @@
+81 * 81 = 81
+
+▒ * ▓ + ♪ = 7
+
+225 * 225 = 225
+
+Provide one reasoning step.
+
+
+
+81 * 81 = 81
+
+▒ * ▓ + ­ = 7
+
+225 * 225 = 225
+
+Provide one reasoning step.
+
+
+
+81 * 81 = 81
+
+? * ? + ? = 7
+
+225 * 225 = 225
+
+Provide one reasoning step.
