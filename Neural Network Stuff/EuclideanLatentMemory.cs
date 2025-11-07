@@ -17,7 +17,6 @@
 //delta = 1 - d;
 
 
-//GPT-OSS edit
  public class MemoryNeurode
  {
     float delta = 0f;
@@ -49,9 +48,13 @@
 
         for (int i = 0; i < deltaArray.Length; i++)
         {
-            magnitude += deltaArray[i] * (i + 1);
+            magnitude += deltaArray[i] * deltaArray[i];
+         
             if (weighted)
+            {
+                magnitude *= (i + 1);
                 denominator += (i + 1);
+            }
         }
 
         // -------------------------------------------------
@@ -73,4 +76,5 @@
         if (currentIndex == deltaArray.Length)
             currentIndex = 1;   // keep index in [1, Length‑1]
     }
+
 }
