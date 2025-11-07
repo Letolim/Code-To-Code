@@ -78,3 +78,5 @@
     }
 
 }
+
+//Possible to map data to a vector space clustered by topic/coherence and use the deltas (represent coordinats -1 to 1) to read data points(map coordinates to data set). (Efficient tree structure!?)
