@@ -81,3 +81,4 @@
 
 //Possible to map data to a vector space clustered by topic/coherence and use the deltas (represent coordinats -1 to 1) to read data points(map coordinates to data set). (Efficient tree structure!?)
 //Also one could leave empty spaces inside the data cloud to extend the data set later without losing progress
+//You can also wrap the tanh function on booth sides (1 + Math.Tanh(delta) + bias) / 3; if bias stays in range of 0 to 1 you can modulate -1 and 1 to the middle 0
