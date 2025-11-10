@@ -89,7 +89,7 @@
    public void Forward(float[][] network, int layer)
    {
        for(int i = 0; i < network[layer - 1].Length; i ++)
-           delta = network[layer - 1][i].delta * weight[i];
+           delta += network[layer - 1][i].delta * weight[i];
 
        deltaArray[currentIndex] = deltaArray[0];
        deltaArray[0] = (float)Math.Tanh(delta + scalar);
@@ -106,3 +106,4 @@
        if (currentIndex == deltaArray.Length)
            currentIndex = 1;
    }
+
