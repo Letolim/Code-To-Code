@@ -81,3 +81,28 @@
 
 //Possible to map data to a vector space clustered by topic/coherence and use the deltas (represent coordinats -1 to 1) to read data points(map coordinates to data set). (Efficient tree structure!?)
 //Also one could leave empty spaces inside the data cloud to extend the data set later without losing progress
+
+   public float delta = 0;
+   private float bufferLength = 5;
+   private float clampThreshold = .25f;
+
+   public void Forward(float[][] network, int layer)
+   {
+       for(int i = 0; i < network[layer - 1].Length; i ++)
+           delta = network[layer - 1][i].delta * weight[i];
+
+       deltaArray[currentIndex] = deltaArray[0];
+       deltaArray[0] = (float)Math.Tanh(delta + scalar);
+
+       for (int i = 0; i < deltaArray.Length; i++)
+           delta += (deltaArray[i] * deltaArray[i]) * deltaArray[i];
+
+       delta = delta / bufferLength;
+
+       if (delta > clampThreshold || delta < -clampThreshold)
+           delta = 0f;
+
+       currentIndex++;
+       if (currentIndex == deltaArray.Length)
+           currentIndex = 1;
+   }
