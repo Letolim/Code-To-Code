@@ -107,3 +107,38 @@
            currentIndex = 1;
    }
 
+//---------------------------------------------------------------------------------------------------
+   public int interval = 500;
+   public int iteration = 0;
+   public float delta = 0;
+   private float bufferLength = 5;
+   private float clampThreshold = .25f;
+
+   public void Forward(float[][] network, int layer)
+   {
+       if(iteration != 0)
+       { 
+           iteration --;
+           return;
+       }
+    
+       for(int i = 0; i < network[layer - 1].Length; i ++)
+           delta += network[layer - 1][i].delta * weight[i];
+
+       deltaArray[currentIndex] = deltaArray[0];
+       deltaArray[0] = (float)Math.Tanh(delta + scalar);
+
+       for (int i = 0; i < deltaArray.Length; i++)
+           delta += (deltaArray[i] * deltaArray[i]) * deltaArray[i];
+
+       delta = delta / bufferLength;
+
+       if (delta > clampThreshold || delta < -clampThreshold)
+           delta = 0f;
+
+       currentIndex++;
+       if (currentIndex == deltaArray.Length)
+           currentIndex = 1;
+
+       iteration = interval;
+   }
