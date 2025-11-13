@@ -5,9 +5,10 @@ Like you can define a plane with a simple normal consisting of 3 numbers you can
 
 Starting with a Line that can be defined by two vectors XY same like a plane XYZ...
 
-When you define a line with X,Y,Z and keep the initial ratio that provides the information of the direction of that line you can scale the third vector z (keeping the ratio) to define the position on that line.
+When you define a line with X,Y,Z and keep the initial ratio that provides the information of the direction of that line you can scale the third vector z (keeping the ratio) to define the magnitude of that line.
 
-Extending this to the plane would lead to a plane X,Y,Z,W,F,H,I,K  where XYZ define the plane W the dimension/magnitude of that plane and FH the line with I as the position/magnitude on the plane and K represents the dot that can travel on a line. That you have to preserve the information that is needed to define the orientation you can never reach 0 or 1.
+Extending this to the plane with a line on it would lead to a plane X,Y,Z,W,F,H,I,K  where XYZ define the plane W the dimension/magnitude of that plane and FH the line with I as the position/magnitude on the plane and K represents the dot that can travel on a line. You have to preserve the information that is needed to define the orientation you can never reach 0 or 1.
+
 
 
 You can unfold this did it like to octahedra if I am right.
