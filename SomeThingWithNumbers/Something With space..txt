@@ -11,4 +11,5 @@ Extending this to the plane with a line on it would lead to a plane X,Y,Z,W,F,H,
 
 
 
-You can unfold this did it like to octahedra if I am right.
+You can unfold this did it like to prism if I am right.
+
