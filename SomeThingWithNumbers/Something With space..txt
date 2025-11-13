@@ -12,3 +12,5 @@ Extending this to the plane with a line on it would lead to a plane X,Y,Z,W,F,H,
 
 
 You can unfold this did it like to a prism if I am right.
+
+Like with a line AB A1B0 normal/perpindicual vector would be A0B1 and A0B-1, defining a plane, then you can take the plane normal +- to define the next higher object with 8 faces...
