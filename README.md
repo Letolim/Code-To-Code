@@ -1,4 +1,4 @@
-<img width="462" height="422" alt="Symbols" src="https://github.com/user-attachments/assets/d68b184c-b835-4f8a-9e8e-e3da49e12189" />
+<img width="462" height="422" alt="symbols" src="https://github.com/user-attachments/assets/7fc946b5-6716-422b-89f2-24cf6a668694" />
 
 
 Image showing the Symbols from the limin letter script.
