@@ -2,3 +2,5 @@
 
 
 Image showing the Symbols from the limin letter script.
+
+A gameplay video of the Dannmaku game "Boids" https://www.youtube.com/watch?v=f33sbmVeIME.
