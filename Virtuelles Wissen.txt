@@ -1,3 +1,3 @@
-Virtuelles Wissen bezeichnet die Gesamtheit an Informationen und Einsichten die aus der Beobachtung, Verarbeitung und Interpretation von Generativen Systemen mit Selbstüberwachung oder welchen mit Aufmerksamkeitsmechanismen entstehen und wird als semantisches Weltwissen wahrgenommen. 
+Virtuelles Wissen bezeichnet die Gesamtheit an Informationen und Einsichten die aus der Beobachtung, Verarbeitung und Interpretation von Generativen Systemen mit Selbstüberwachung oder Aufmerksamkeitsmechanismen entsteht und wird als semantisches Weltwissen wahrgenommen. 
 Es umfasst sowohl automatisch gewonnene Wissensstrukturen als auch von Menschen kuratierte oder durch hybride Mensch–Maschine-Prozesse erzeugte Wissensrepräsentationen. 
 Typische Quellen sind Sensoraufzeichnungen, digitale Dokumente, Interaktionsprotokolle sowie Modelle und Repräsentationen, die von diesen Systemen erzeugt werden.
