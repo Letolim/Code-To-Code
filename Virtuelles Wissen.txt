@@ -3,9 +3,8 @@
 Virtuelles Wissen bezeichnet die Informationen und Einsichten die von der Beobachtung und Verarbeitung von 'Generativen Systemen' mit Selbstüberwachung oder Rekkurenz entstehen.
   
 Veranschaulichung:
-  
     Durch Beobachtung des Zustandes bestehende Information im gegebenen Repärentationsraum welcher die zur verfügung stehenden Möglichkeiten des Systemes abbilden kann. 
-    Das Virtuelles Wissen wird an die nächste Iteration weitergegeben und mann kann mit Modellen wie Backpropagation Implementationen den Kontrast erhöhen um den Inhalt der Repräsentation abzubilden.
+    Das Virtuelles Wissen wird an die nächste Iteration weitergegeben und mann kann mit Modellen wie Backpropagation Implementationen den Kontrast erhöhen um den Inhalt von Interaktionen abzubilden.
     
             A ----\   /---- C
                     X  ---- D
@@ -21,7 +20,6 @@ Veranschaulichung:
     E = Messung mit der Interpretation Falsch
 
 Interkationsbeispiel:
-
  Das System gibt wenn ich C ("Morgen ist auch noch ein Tag") nehme zukünftig Antworten welche D ("Bis dahin bist du Fertig") und E("Benachrichtige mich wenn du fertig bist") benachteilligen.
     Mögliche semantische Repräsentationen der Information des Systems als Ganzes:
      - Der Benutzer nutzt Antworten welche verhindern das es zu einem Interaktionsabbruch kommt. 
@@ -30,14 +28,11 @@ Interkationsbeispiel:
      - ... 
 
 These:
-
   Man kann nicht durch Interpretation von Messwerten das Wissen abbilden welches dem gesamten Generativen Systemen mit Selfawarnes oder Rekkurenz als Virtuelles Wissen zugrunde liegt.
 
 Gegenthese:
-
   Eine Interpretation von Messwerten von Systemen mit Selfawarnes oder Rekkurenz bilded nicht das Virtuelle Wissen ab sondern die semantische Repräsentation welche das genutzte Medium ermöglicht.
 
 Schlussvolgerung:
-
  Einsichten wie zum Beispiel in Form von Ngramen wie [Morgen, ist] oder durch einen Kernel modulierte visuelle Daten können Wissensrepräsentation in 'Generativen Systemen' abbilden 
  welche durch Rekkurenz oder Selfawarnes Informationen beinhalten welche nicht klar definiert werden können aber in form von Virtuellem Wissen bestehen.
