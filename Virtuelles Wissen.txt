@@ -67,6 +67,5 @@ Interaktions Beispiele:
 
 Todo:
 
-
 These: Man kann nicht durch Interpretation von Messwerten das Wissen abbilden welches dem gesamten 'Generativen Systemen' als Virtuelles Wissen zugrunde liegt.
 Gegenthese: Interpretation von Messwerten bilded das Wissen ab welches das Medium welches zur Repräsentation dient abbilden kann.
