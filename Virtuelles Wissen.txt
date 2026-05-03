@@ -20,16 +20,16 @@ Veranschaulichung:
     D = Messung mit der Interpretation Korrekt
     E = Messung mit der Interpretation Falsch
 
-  
+ Informationen in Form von Ngramen wie [Morgen, ist] oder Kerneldaten welche Bilder auslesen ermöglichen Wissensrepräsentation welche auf der Gesamtheit des Systemes beruhen welches durch Rekkurenz oder Selfawarnes Informationen beeinhaltet welche nicht gleich der sind welche als ein oder Ausgabe definiert wurden:
+
     Naive Interaktion:
       Das System gibt wenn ich C ("Morgen ist auch noch ein Tag") nehme zukünftig Antworten welche D ("Bis dahin bist du Fertig") und E("Benachrichtige mich wenn du fertig bist") benachteilligen.
 
-      Mögliche semantische Repräsentationen der Information des Systems als Ganzes:
-       - Der Benutzer nutzt Antworten welche verhindern das es zu einem Interaktionsabbruch kommt. 
-       - Der Benutzer nutzt Antworten welche auf ein Ereigniss gerichtet sind.
-       - Der Benutzer nutzt Antworten welche zu positivem Feedback führen.
-       - ...
-
+        Mögliche semantische Repräsentationen der Information des Systems als Ganzes:
+         - Der Benutzer nutzt Antworten welche verhindern das es zu einem Interaktionsabbruch kommt. 
+         - Der Benutzer nutzt Antworten welche auf ein Ereigniss gerichtet sind.
+         - Der Benutzer nutzt Antworten welche zu positivem Feedback führen.
+         - ...
 
 These:
   Man kann nicht durch Interpretation von Messwerten das Wissen abbilden welches dem gesamten Generativen Systemen mit Selfawarnes oder Rekkurenz als Virtuelles Wissen zugrunde liegt.
