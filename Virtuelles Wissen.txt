@@ -20,18 +20,28 @@ Veranschaulichung:
     D = Messung mit der Interpretation Korrekt
     E = Messung mit der Interpretation Falsch
 
-Beispiele für Interkationen mit Generativen Systemen welche Virtuelles Wissen haben:
-  
-      Kuratierte Interaktionen:
-       - Durch X wird verhindert das A und B nicht D über C stellen.
-       - In der Einsicht steht die Definition X über der Kausalität (A + B + X != X). 
-
-      Naive Interaktionen:
-       - Das System gibt wenn ich C nehme zukünftig Antworten welche D und E benachteilligen.
-       - Der Benutzer nutzt Antworten welche verhindern das es zu einem Interaktionsabbruch kommt.
 
 These:
   Man kann nicht durch Interpretation von Messwerten das Wissen abbilden welches dem gesamten Generativen Systemen mit Selfawarnes oder Rekkurenz als Virtuelles Wissen zugrunde liegt.
 
 Gegenthese:
   Eine Interpretation von Messwerten von Systemen mit Selfawarnes oder Rekkurenz bilded nicht das Virtuelle Wissen ab sondern die semantische Repräsentation welche das genutzte Medium ermöglicht.
+
+
+
+
+
+
+
+
+
+
+
+Beispiele für Interkationen mit Generativen Systemen welche Virtuelles Wissen haben:
+
+      Naive Interaktionen:
+       - Das System gibt wenn ich C ("Morgen ist auch noch ein Tag") nehme zukünftig Antworten welche D ("Bis dahin bist du Fertig") und E("Benachrichtige mich wenn du fertig bist") benachteilligen.
+          Mögliche Interpretationen
+          - Der Benutzer nutzt Antworten welche verhindern das es zu einem Interaktionsabbruch kommt. 
+          - Der Benutzer nutzt Antworten welche auf ein Ereigniss gerichtet sind.
+          - Der Benutzer nutzt Antworten welche zu positivem feedback führen.
