@@ -1,4 +1,4 @@
-Virtuelles Wissen bezeichnet die Informationen und Einsichten die von der Beobachtung und Verarbeitung von 'Generativen Systemen' mit Selbstüberwachung oder Rekurrsion entstehen.
+Virtuelles Wissen bezeichnet die Informationen und Einsichten die von der Beobachtung und Verarbeitung von 'Generativen Systemen' mit Selbstüberwachung oder Rekkurenz entstehen.
 
 
 Veranschaulichung:
