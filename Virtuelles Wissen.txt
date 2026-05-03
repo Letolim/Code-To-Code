@@ -6,7 +6,7 @@ Typische Quellen sind Sensorinformationen, digitale Dokumente, Interaktionsproto
 
 
 Virtuelles Wissen:
-Durch Beobachtung des Zustandes bestehender Information im gegebenen Repärentationsraum welcher die zur verfügung stehenden Möglichkeiten des Systemes abbilden kann. 
+Durch Beobachtung des Zustandes bestehende Information im gegebenen Repärentationsraum welcher die zur verfügung stehenden Möglichkeiten des Systemes abbilden kann. 
 Das Virtuelles Wissen wird an die nächste Iteration weitergegeben und mann kann mit Modellen wie Backpropagation Implementationen den Kontrast erhöhen um den Inhalt der Interaktionen zu abzubilden.
 
 
