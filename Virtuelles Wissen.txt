@@ -20,16 +20,18 @@ Veranschaulichung:
     D = Messung mit der Interpretation Korrekt
     E = Messung mit der Interpretation Falsch
 
- Daten in Form von Ngramen wie [Morgen, ist] oder durch einen Kernel modulierte visuelle Daten können Wissensrepräsentation in 'Generativen Systemen' abbilden welche durch Rekkurenz oder Selfawarnes Informationen beinhalten welche nicht klar definiert werden können aber in form von Virtuellem Wissen bestehen.
+Interkationsbeispiel:
 
-    Naive Interaktion:
-      Das System gibt wenn ich C ("Morgen ist auch noch ein Tag") nehme zukünftig Antworten welche D ("Bis dahin bist du Fertig") und E("Benachrichtige mich wenn du fertig bist") benachteilligen.
+ Das System gibt wenn ich C ("Morgen ist auch noch ein Tag") nehme zukünftig Antworten welche D ("Bis dahin bist du Fertig") und E("Benachrichtige mich wenn du fertig bist") benachteilligen.
+    Mögliche semantische Repräsentationen der Information des Systems als Ganzes:
+     - Der Benutzer nutzt Antworten welche verhindern das es zu einem Interaktionsabbruch kommt. 
+     - Der Benutzer nutzt Antworten welche auf ein Ereigniss gerichtet sind.
+     - Der Benutzer nutzt Antworten welche zu positivem Feedback führen.
+     - ... 
 
-        Mögliche semantische Repräsentationen der Information des Systems als Ganzes:
-         - Der Benutzer nutzt Antworten welche verhindern das es zu einem Interaktionsabbruch kommt. 
-         - Der Benutzer nutzt Antworten welche auf ein Ereigniss gerichtet sind.
-         - Der Benutzer nutzt Antworten welche zu positivem Feedback führen.
-         - ...
+Schlussvolgerung:
+
+    Daten in Form von Ngramen wie [Morgen, ist] oder durch einen Kernel modulierte visuelle Daten können Wissensrepräsentation in 'Generativen Systemen' abbilden welche durch Rekkurenz oder Selfawarnes Informationen beinhalten welche nicht klar definiert werden können aber in form von Virtuellem Wissen bestehen.
 
 These:
   Man kann nicht durch Interpretation von Messwerten das Wissen abbilden welches dem gesamten Generativen Systemen mit Selfawarnes oder Rekkurenz als Virtuelles Wissen zugrunde liegt.
