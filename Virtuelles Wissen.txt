@@ -19,7 +19,7 @@ D = Korrekt
 E = Falsch
 
 Virtuelles Wissen:
-Durch Beobachtung des Zustandes bestehende Information im gegebenen Repärentationsraum welcher die Summe der zur verfügung stehenden Möglichkeiten des Systemes abbilden kann. 
+Durch Beobachtung des Zustandes bestehende Information im gegebenen Repärentationsraum welcher die zur verfügung stehenden Möglichkeiten des Systemes abbilden kann. 
 
 
 Kuratierte Optionen:
