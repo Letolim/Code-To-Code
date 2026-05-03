@@ -32,4 +32,4 @@ Interaktions Beispiele:
  - Der Benutzer liefert Antworten welche verhindern das es zu einem Interaktionsabbruch kommt.
 
 These: Man kann nicht durch Interpretation von Messwerten das Wissen abbilden welches dem gesamten Generativen Systemen mit Selfawarnes oder Rekkurenz als Virtuelles Wissen zugrunde liegt.
-Gegenthese: Eine Interpretation von Messwerten von Systemen mit Selfawarnes oder Rekkurenz bilded nicht das Virtuelle Wissen ab sondern die semantische Repräsentation welche durch das genutzten Medium abgebilded wird.
+Gegenthese: Eine Interpretation von Messwerten von Systemen mit Selfawarnes oder Rekkurenz bilded nicht das Virtuelle Wissen ab sondern die semantische Repräsentation welche das genutzte Medium ermöglicht.
