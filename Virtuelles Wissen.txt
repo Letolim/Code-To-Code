@@ -17,13 +17,11 @@ Das System welches hinter A steht wird durch positives feedback selektiert.
 
 
 
-
 Veranschaulichung:
 
 A ----\   /---- C
         X  ---- D
 B ----/   \---- E
-
 
 A = Eingangssignale.
 B = Selfawarnes / Rekkurenz. (Virtuelles Wissen)
