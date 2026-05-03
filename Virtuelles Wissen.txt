@@ -24,7 +24,7 @@ Beispiele für Interkationen mit Generativen Systemen welche Virtuelles Wissen h
   
       Kuratierte Interaktionen:
        - Durch X wird verhindert das A und B nicht D über C stellen.
-       - In der Einsicht steht die Definition X über der Kausalität (A + B != X). 
+       - In der Einsicht steht die Definition X über der Kausalität (A + B + X != X). 
 
       Naive Interaktionen:
        - Das System gibt wenn ich C nehme zukünftig Antworten welche D und E benachteilligen.
