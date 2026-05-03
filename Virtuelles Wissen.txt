@@ -3,8 +3,8 @@
 Virtuelles Wissen bezeichnet die Informationen und Einsichten, die durch die Beobachtung und Verarbeitung von 'generativen Systemen' mit Selbstüberwachung oder Rekurrenz entstehen
   
 Veranschaulichung:
-Durch Beobachtung des Zustands bestehender Informationen im gegebenen Repräsentationsraum, welcher die zur Verfügung stehenden Möglichkeiten des Systems abbilden kann,
-wird das virtuelle Wissen an die nächste Iteration weitergegeben. Man kann mit Modellen wie Back‑Propagation‑Implementierungen den Kontrast erhöhen, um den Inhalt von Interaktionen abzubilden.
+  Durch Beobachtung des Zustands bestehender Informationen im gegebenen Repräsentationsraum, welcher die zur Verfügung stehenden Möglichkeiten des Systems abbilden kann,
+  wird das virtuelle Wissen an die nächste Iteration weitergegeben. Man kann mit Modellen wie Back‑Propagation‑Implementierungen den Kontrast erhöhen, um den Inhalt von Interaktionen abzubilden.
     
             A ----\   /---- C
                     X  ---- D
@@ -45,8 +45,8 @@ Schlussvolgerung:
 Virtual knowledge refers to the information and insights that arise from observing and processing generative systems with self‑monitoring or recurrence.
 
 Illustration:
-By observing the state of existing information in the given representation space, which can map the system’s available possibilities,
-the virtual knowledge is passed on to the next iteration. One can increase the contrast with models such as back-propagation implementations to represent the content of interactions.
+  By observing the state of existing information in the given representation space, which can map the system’s available possibilities,
+  the virtual knowledge is passed on to the next iteration. One can increase the contrast with models such as back-propagation implementations to represent the content of interactions.
     
             A ----\   /---- C
                     X  ---- D
