@@ -14,3 +14,24 @@ Selektive Wahrnehmung wenn ich 5 nehme lohnt sich der Aufwand mehr.
 Episodisches Wissen A ist die bessere Antwort da kein verlust von Handlungsfähigkeiten.
 
 Das System welches hinter A steht wird durch positives feedback selektiert.
+
+
+
+
+Veranschaulichung:
+
+A ----\   /---- C
+        X  ---- D
+B ----/   \---- E
+
+
+A = Eingangssignale.
+B = Selfawarnes / Rekkurenz. (Virtuelles Wissen)
+
+C = Richtig
+D = Korrekt
+E = Falsch
+
+Kuratierte Optionen:
+F = Semantisches Weltwissen; Die Antwort bricht ein Taboo.
+G = Episodisches Wissen; Das Virtuelle Wissen priorisiert Definition über Kausalität.
