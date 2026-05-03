@@ -21,14 +21,14 @@ Veranschaulichung:
     E = Messung mit der Interpretation Falsch
 
   
-    Naive Interaktionen:
+    Naive Interaktion:
       Das System gibt wenn ich C ("Morgen ist auch noch ein Tag") nehme zukünftig Antworten welche D ("Bis dahin bist du Fertig") und E("Benachrichtige mich wenn du fertig bist") benachteilligen.
 
-      Mögliche Interpretationen der Information des Systems:
+      Mögliche semantische Repräsentationen des Systems als Information:
        - Der Benutzer nutzt Antworten welche verhindern das es zu einem Interaktionsabbruch kommt. 
        - Der Benutzer nutzt Antworten welche auf ein Ereigniss gerichtet sind.
-       - Der Benutzer nutzt Antworten welche zu positivem feedback führen.
-
+       - Der Benutzer nutzt Antworten welche zu positivem Feedback führen.
+       - ...
 
 
 These:
