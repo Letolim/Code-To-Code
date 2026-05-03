@@ -1,9 +1,11 @@
+                                                                                Virtuelles Wissen
+
+
 Virtuelles Wissen bezeichnet die Informationen und Einsichten die von der Beobachtung und Verarbeitung von 'Generativen Systemen' mit Selbstüberwachung oder Rekkurenz entstehen.
 
 
-Veranschaulichung:
+                                                                                Veranschaulichung
 
-Virtuelles Wissen:
 Durch Beobachtung des Zustandes bestehende Information im gegebenen Repärentationsraum welcher die zur verfügung stehenden Möglichkeiten des Systemes abbilden kann. 
 Das Virtuelles Wissen wird an die nächste Iteration weitergegeben und mann kann mit Modellen wie Backpropagation Implementationen den Kontrast erhöhen um den Inhalt der Repräsentation abzubilden.
 
@@ -11,21 +13,23 @@ Das Virtuelles Wissen wird an die nächste Iteration weitergegeben und mann kann
                 X  ---- D
         B ----/   \---- E
 
-A = Eingangssignale.
-B = Selfawarnes / Rekkurenz.
+A = Eingangssignale
+B = Selfawarnes / Rekkurenz
 
-C = Richtig
-D = Korrekt
-E = Falsch
+X = Repärentationsraum ohne Schnittstellen
+
+C = Messung mit der Interpretation Richtig
+D = Messung mit der Interpretation Korrekt
+E = Messung mit der Interpretation Falsch
 
 Kuratierte Optionen:
-F = Semantisches Weltwissen; Die Antwort bricht ein Taboo.
-G = Episodisches Wissen; Im Virtuellen Wissen steht die Definition über der Kausalität.
-H = Selektive Wahrnehmung; C oder D befriedigen die These.
+ - Semantisches Weltwissen; Die Antwort bricht ein Taboo.
+ - Episodisches Wissen; Im Virtuellen Wissen steht die Definition über der Kausalität.
+ - Selektive Wahrnehmung; C oder D befriedigen die These.
 
 Interaktions Beispiele:
-I = Das System gibt wenn ich C nehme zukünftig Antworten welche D und E umgehen.
-J = Der Benutzer liefert Antworten welche verhindern das es zu einem Interaktionsabbruch kommt.
+ - Das System gibt wenn ich C nehme zukünftig Antworten welche D und E umgehen.
+ - Der Benutzer liefert Antworten welche verhindern das es zu einem Interaktionsabbruch kommt.
 
 
 
