@@ -35,3 +35,4 @@ E = Falsch
 Kuratierte Optionen:
 F = Semantisches Weltwissen; Die Antwort bricht ein Taboo.
 G = Episodisches Wissen; Das Virtuelle Wissen priorisiert Definition über Kausalität.
+H = Selektive Wahrnehmung; C oder D befriedigen die These.
