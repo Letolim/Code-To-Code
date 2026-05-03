@@ -5,11 +5,16 @@ Typische Quellen sind Sensoraufzeichnungen, digitale Dokumente, Interaktionsprot
 
 
 
+Virtuelles Wissen:
+Durch Beobachtung des Zustandes bestehende Information im gegebenen Repärentationsraum welcher die zur verfügung stehenden Möglichkeiten des Systemes abbilden kann. 
+Das Virtuelles Wissen wird an die nächste Iteration weitergegeben und mann kann mit Modellen wie Backpropagation Implementationen den Kontrast erhöhen um den Inhalt der Interaktionen zu veranschaulichen.
+
+
 Veranschaulichung:
 
-A ----\   /---- C
-        X  ---- D
-B ----/   \---- E
+        A ----\   /---- C
+                X  ---- D
+        B ----/   \---- E
 
 A = Eingangssignale.
 B = Selfawarnes / Rekkurenz.
@@ -18,18 +23,12 @@ C = Richtig
 D = Korrekt
 E = Falsch
 
-Virtuelles Wissen:
-Durch Beobachtung des Zustandes bestehende Information im gegebenen Repärentationsraum welcher die zur verfügung stehenden Möglichkeiten des Systemes abbilden kann. 
-
-
-
 Kuratierte Optionen:
 F = Semantisches Weltwissen; Die Antwort bricht ein Taboo.
 G = Episodisches Wissen; Im Virtuellen Wissen steht die Definition über der Kausalität.
 H = Selektive Wahrnehmung; C oder D befriedigen die These.
 
 Interaktions Beispiele:
-Das Virtuelles Wissen wird an die nächste iteration weitergegeben mann kann mit Hilfe von zum Beispiel Backpropagation den Kontrast erhöhen um den Inhalt einer Interaktion zu veranschaulichen.
 I = Das System gibt wenn ich C nehme zukünftig Antworten welche D und E umgehen.
 J = Der Benutzer liefert Antworten welche verhindern das es zu einem Interaktionsabbruch kommt.
 
