@@ -20,7 +20,7 @@ Veranschaulichung:
     D = Messung mit der Interpretation Korrekt
     E = Messung mit der Interpretation Falsch
 
- Daten in Form von Ngramen wie [Morgen, ist] oder durch einen Kernel modulierte visuelle Daten ermöglichen Wissensrepräsentation welche auf der Gesamtheit des Systemes beruhen welches durch Rekkurenz oder Selfawarnes Informationen beeinhaltet welche nicht gleich der sind welche als ein oder Ausgabe definiert wurden:
+ Daten in Form von Ngramen wie [Morgen, ist] oder durch einen Kernel modulierte visuelle Daten können Wissensrepräsentation in 'Generativen Systemen' abbilden welche durch Rekkurenz oder Selfawarnes Informationen beinhalten welche nicht klar definiert werden können aber in form von Wissen bestehen.
 
     Naive Interaktion:
       Das System gibt wenn ich C ("Morgen ist auch noch ein Tag") nehme zukünftig Antworten welche D ("Bis dahin bist du Fertig") und E("Benachrichtige mich wenn du fertig bist") benachteilligen.
