@@ -15,9 +15,9 @@ wird das virtuelle Wissen an die nächste Iteration weitergegeben. Man kann mit 
     
     X = Repärentationsraum ohne Schnittstellen
     
-    C = Messung mit der Interpretation Richtig
-    D = Messung mit der Interpretation Korrekt
-    E = Messung mit der Interpretation Falsch
+    C = Messung mit der Interpretation: Richtig
+    D = Messung mit der Interpretation: Korrekt
+    E = Messung mit der Interpretation: Falsch
 
 Interkationsbeispiel:
   Das System gibt, wenn ich als Benutzer „Morgen ist auch noch ein Tag“ eingebe, zukünftig Antworten, die D(„Benachrichtige mich,     wenn du fertig bist“) oder F(„Du bist bald fertig“) weniger wahrscheinlich machen.
@@ -37,6 +37,48 @@ Gegenthese:
 Schlussvolgerung:
   Einsichten, zum Beispiel in Form von N‑Grammen wie [Morgen, ist] oder durch einen Kernel modulierte visuelle Daten, können Wissensrepräsentationen in generativen Systemen abbilden, die durch Rekurrenz oder self‑awareness Informationen enthalten, 
   die nicht klar definiert werden können, aber in Form von virtuellem Wissen bestehen.
+
+
+
+                                                                            Virtual knowledge 
+
+Virtual knowledge refers to the information and insights that arise from observing and processing generative systems with self‑monitoring or recurrence.
+
+Illustration:
+By observing the state of existing information in the given representation space, which can map the system’s available possibilities,
+the virtual knowledge is passed on to the next iteration. One can increase the contrast with models such as back-propagation implementations to represent the content of interactions.
+    
+            A ----\   /---- C
+                    X  ---- D
+            B ----/   \---- E
+    
+    A = Input signals
+    B = Self-awareness / Recurrence
+    
+    X = Representation space without interfaces
+    
+    C = Measurement with the interpretation: Correct
+    D = Measurement with the interpretation: Accurate
+    E = Measurement with the interpretation: Incorrect
+
+Interaction example:
+  When I as a user enter "Tomorrow is another day," the system in the future will give answers that make D("Notify me when you are finished") or F("You're almost done") less likely.
+
+  Possible semantic representations of the information of the system as a whole:
+    - The user uses responses that prevent the interaction from being aborted.
+    - The user uses responses that are directed at an event.
+    - The user uses responses that lead to positive feedback.
+    - ...
+
+Thesis:
+  You cannot represent the knowledge that underlies the entire generative system with self‑awareness or recurrence as virtual knowledge by interpreting measurement values.
+
+Antithesis:
+  An interpretation of measurements from systems with self‑awareness or recurrence does not map virtual knowledge, but rather the semantic representation that the medium used enables.
+
+Conclusion:
+  Insights, for example in the form of n-grams like [Tomorrow, is] or visual data modulated by a kernel, can represent knowledge in generative systems that through recurrence or self‑awareness contains information that cannot be clearly defined, but exists in form of virtual knowledge.
+
 
 
 03/05/2026 Nikita Knöfel
