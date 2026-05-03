@@ -36,5 +36,4 @@ Interaktions Beispiele:
 Todo:
 
 These: Man kann nicht durch Interpretation von Messwerten das Wissen abbilden welches dem gesamten Generativen Systemen mit Selfawarnes oder Rekkurenz als Virtuelles Wissen zugrunde liegt.
-Gegenthese: Interpretation von Messwerten von Systemen mit Selfawarnes oder Rekkurenz bilded das Wissen ab das dass Medium welches zur Repräsentation genutzt wird abbilden kann.
-
+Gegenthese: Eine Interpretation von Messwerten von Systemen mit Selfawarnes oder Rekkurenz bilded nicht das Virtuelle Wissen ab sondern die semantische Repräsentation welche durch das genutzten Medium abgebilded wird.
