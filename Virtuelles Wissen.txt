@@ -1,8 +1,6 @@
                                                                                     Virtuelles Wissen
 
-
 Virtuelles Wissen bezeichnet die Informationen und Einsichten die von der Beobachtung und Verarbeitung von 'Generativen Systemen' mit Selbstüberwachung oder Rekkurenz entstehen.
-  
   
 Veranschaulichung:
   
@@ -21,15 +19,16 @@ Veranschaulichung:
     C = Messung mit der Interpretation Richtig
     D = Messung mit der Interpretation Korrekt
     E = Messung mit der Interpretation Falsch
-    
-    Kuratierte Optionen:
-     - Semantisches Weltwissen; Die Antwort bricht ein Taboo.
-     - Episodisches Wissen; Im Virtuellen Wissen steht die Definition über der Kausalität.
-     - Selektive Wahrnehmung; C oder D befriedigen die These.
-    
-    Interaktions Beispiele:
-     - Das System gibt wenn ich C nehme zukünftig Antworten welche D und E umgehen.
-     - Der Benutzer liefert Antworten welche verhindern das es zu einem Interaktionsabbruch kommt.
+
+Beispiele für Interkationen mit Generativen Systemen welche Virtuelles Wissen haben:
+  
+      Kuratierte Interaktionen:
+       - Durch X wird verhindert das A und B nicht D über C stellen.
+       - In der Einsicht steht die Definition X über der Kausalität (A + B != X). 
+
+      Naive Interaktionen:
+       - Das System gibt wenn ich C nehme zukünftig Antworten welche D und E benachteilligen.
+       - Der Benutzer nutzt Antworten welche verhindern das es zu einem Interaktionsabbruch kommt.
 
 These:
   Man kann nicht durch Interpretation von Messwerten das Wissen abbilden welches dem gesamten Generativen Systemen mit Selfawarnes oder Rekkurenz als Virtuelles Wissen zugrunde liegt.
