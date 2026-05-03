@@ -42,10 +42,6 @@ Interaktions Beispiele:
 
 
 
-
-
-
-
 ↕
 
 
@@ -65,12 +61,12 @@ Interaktions Beispiele:
 
 
 
-Todo: Die Intention des Nutzers und die Interpretation der Systeme manipulieren sich gegenseitig wodurch langfristige Abhängigkeiten entstehen. (Beide Seiten können in komplexen system die Motivation/Gewichtung nicht genau definieren und ohne Realitätsabgleich den Bezug zu kausalen Abläufen verlieren)
 
-A: Virtuelles wissen es passen per Definition 5 gegenstände in einen behälter.
-B: Abstraktes Welt Wissen es sind nur 4 erlaubt.
 
-Selektive Wahrnehmung wenn ich 5 nehme lohnt sich der Aufwand mehr.
-Episodisches Wissen A ist die bessere Antwort da kein verlust von Handlungsfähigkeiten.
 
-Das System welches hinter A steht wird durch positives feedback selektiert.
+
+Todo:
+
+
+These: Man kann nicht durch Interpretation von Messwerten das Wissen abbilden welches dem gesamten 'Generativen Systemen' als Virtuelles Wissen zugrunde liegt.
+Gegenthese: Interpretation von Messwerten bilded das Wissen ab welches das Medium welches zur Repräsentation dient abbilden kann.
