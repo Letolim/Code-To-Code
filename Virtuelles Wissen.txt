@@ -1,19 +1,7 @@
 Virtuelles Wissen bezeichnet die Gesamtheit an Informationen und Einsichten(Ableitungen) die von der Beobachtung(Eintritt von Signalen), Verarbeitung und Interpretation von Generativen Systemen mit Selbstüberwachung oder Aufmerksamkeitsmechanismen entsteht.
 
-Es wird sowohl in Form von automatisch gewonnene Wissensstrukturen als auch von Menschen kuratierten oder durch hybride Mensch–Maschine-Prozesse erzeugte Wissensrepräsentationen als abstraktes Weltwissen wahrgenommen. 
+Es besteht sowohl in Form von automatisch gewonnene Wissensstrukturen als auch von Menschen kuratierten oder durch hybride Mensch–Maschine-Prozesse erzeugte Wissensrepräsentationen. 
 Typische Quellen sind Sensoraufzeichnungen, digitale Dokumente, Interaktionsprotokolle sowie Modelle und Repräsentationen, die von diesen Systemen erzeugt werden.
-
-
-
-Die Intention des Nutzers und die Interpretation der Systeme manipulieren sich gegenseitig wodurch langfristige Abhängigkeiten entstehen. (Beide Seiten können in komplexen system die Motivation/Gewichtung nicht genau definieren und ohne Realitätsabgleich den Bezug zu kausalen Abläufen verlieren)
-
-A: Virtuelles wissen es passen per Definition 5 gegenstände in einen behälter.
-B: Abstraktes Welt Wissen es sind nur 4 erlaubt.
-
-Selektive Wahrnehmung wenn ich 5 nehme lohnt sich der Aufwand mehr.
-Episodisches Wissen A ist die bessere Antwort da kein verlust von Handlungsfähigkeiten.
-
-Das System welches hinter A steht wird durch positives feedback selektiert.
 
 
 
@@ -24,13 +12,52 @@ A ----\   /---- C
 B ----/   \---- E
 
 A = Eingangssignale.
-B = Selfawarnes / Rekkurenz. (Virtuelles Wissen)
+B = Selfawarnes / Rekkurenz.
 
 C = Richtig
 D = Korrekt
 E = Falsch
 
+Virtuelles Wissen:
+Durch Beobachtung des Zustandes bestehender Information im gegebenen Repärentationsraum welcher die Summe der zur verfügung stehenden Möglichkeiten des Systemes abbilden kann. 
+
+
 Kuratierte Optionen:
 F = Semantisches Weltwissen; Die Antwort bricht ein Taboo.
 G = Episodisches Wissen; Im Virtuellen Wissen steht die Definition über der Kausalität.
 H = Selektive Wahrnehmung; C oder D befriedigen die These.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Todo: Die Intention des Nutzers und die Interpretation der Systeme manipulieren sich gegenseitig wodurch langfristige Abhängigkeiten entstehen. (Beide Seiten können in komplexen system die Motivation/Gewichtung nicht genau definieren und ohne Realitätsabgleich den Bezug zu kausalen Abläufen verlieren)
+
+A: Virtuelles wissen es passen per Definition 5 gegenstände in einen behälter.
+B: Abstraktes Welt Wissen es sind nur 4 erlaubt.
+
+Selektive Wahrnehmung wenn ich 5 nehme lohnt sich der Aufwand mehr.
+Episodisches Wissen A ist die bessere Antwort da kein verlust von Handlungsfähigkeiten.
+
+Das System welches hinter A steht wird durch positives feedback selektiert.
