@@ -5,7 +5,7 @@ Typische Quellen sind Sensoraufzeichnungen, digitale Dokumente, Interaktionsprot
 
 
 
-Die Intention des Nutzers und die Interpretation der Systeme manipulieren sich gegenseitig wodurch langfristige Abhängigkeiten entstehen. (Beide Seiten können in komplexen system die Motivation/Gewichtung nicht genau definieren und ohne Realitätsabgleich den Bezug zu Kausalenabläufen verlieren)
+Die Intention des Nutzers und die Interpretation der Systeme manipulieren sich gegenseitig wodurch langfristige Abhängigkeiten entstehen. (Beide Seiten können in komplexen system die Motivation/Gewichtung nicht genau definieren und ohne Realitätsabgleich den Bezug zu kausalen Abläufen verlieren)
 
 A: Virtuelles wissen es passen per Definition 5 gegenstände in einen behälter.
 B: Abstraktes Welt Wissen es sind nur 4 erlaubt.
