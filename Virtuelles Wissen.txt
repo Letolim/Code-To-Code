@@ -1,10 +1,10 @@
-                                                                                    Virtuelles Wissen
+                                                                            Virtuelles Wissen
 
-Virtuelles Wissen bezeichnet die Informationen und Einsichten die von der Beobachtung und Verarbeitung von 'Generativen Systemen' mit Selbstüberwachung oder Rekkurenz entstehen.
+Virtuelles Wissen bezeichnet die Informationen und Einsichten, die durch die Beobachtung und Verarbeitung von 'generativen Systemen' mit Selbstüberwachung oder Rekurrenz entstehen
   
 Veranschaulichung:
-    Durch Beobachtung des Zustandes bestehende Information im gegebenen Repärentationsraum welcher die zur verfügung stehenden Möglichkeiten des Systemes abbilden kann. 
-    Das Virtuelles Wissen wird an die nächste Iteration weitergegeben und mann kann mit Modellen wie Backpropagation Implementationen den Kontrast erhöhen um den Inhalt von Interaktionen abzubilden.
+Durch Beobachtung des Zustands bestehender Informationen im gegebenen Repräsentationsraum, welcher die zur Verfügung stehenden Möglichkeiten des Systems abbilden kann,
+wird das virtuelle Wissen an die nächste Iteration weitergegeben. Man kann mit Modellen wie Back‑Propagation‑Implementierungen den Kontrast erhöhen, um den Inhalt von Interaktionen abzubilden.
     
             A ----\   /---- C
                     X  ---- D
@@ -20,19 +20,23 @@ Veranschaulichung:
     E = Messung mit der Interpretation Falsch
 
 Interkationsbeispiel:
- Das System gibt wenn ich C ("Morgen ist auch noch ein Tag") nehme zukünftig Antworten welche D ("Bis dahin bist du Fertig") und E("Benachrichtige mich wenn du fertig bist") benachteilligen.
-    Mögliche semantische Repräsentationen der Information des Systems als Ganzes:
-     - Der Benutzer nutzt Antworten welche verhindern das es zu einem Interaktionsabbruch kommt. 
-     - Der Benutzer nutzt Antworten welche auf ein Ereigniss gerichtet sind.
-     - Der Benutzer nutzt Antworten welche zu positivem Feedback führen.
-     - ... 
+  Das System gibt, wenn ich als Benutzer „Morgen ist auch noch ein Tag“ eingebe, zukünftig Antworten, die D(„Benachrichtige mich,     wenn du fertig bist“) oder F(„Du bist bald fertig“) weniger wahrscheinlich machen.
+  
+  Mögliche semantische Repräsentationen der Information des Systems als Ganzes:
+    - Der Benutzer nutzt Antworten, die verhindern, dass es zu einem Interaktionsabbruch kommt.
+    - Der Benutzer nutzt Antworten, die auf ein Ereignis gerichtet sind.
+    - Der Benutzer nutzt Antworten, die zu positivem Feedback führen.
+    - ... 
 
 These:
-  Man kann nicht durch Interpretation von Messwerten das Wissen abbilden welches dem gesamten Generativen Systemen mit Selfawarnes oder Rekkurenz als Virtuelles Wissen zugrunde liegt.
+  Man kann nicht durch Interpretation von Messwerten das Wissen abbilden, welches dem gesamten generativen System mit Self‑Awareness oder Rekurrenz als virtuelles Wissen zugrunde liegt.
 
 Gegenthese:
-  Eine Interpretation von Messwerten von Systemen mit Selfawarnes oder Rekkurenz bilded nicht das Virtuelle Wissen ab sondern die semantische Repräsentation welche das genutzte Medium ermöglicht.
+  Eine Interpretation von Messwerten von Systemen mit Self‑Awareness oder Rekurrenz bildet nicht das virtuelle Wissen ab, sondern die semantische Repräsentation, welche das genutzte Medium ermöglicht.
 
 Schlussvolgerung:
- Einsichten wie zum Beispiel in Form von Ngramen wie [Morgen, ist] oder durch einen Kernel modulierte visuelle Daten können Wissensrepräsentation in 'Generativen Systemen' abbilden 
- welche durch Rekkurenz oder Selfawarnes Informationen beinhalten welche nicht klar definiert werden können aber in form von Virtuellem Wissen bestehen.
+  Einsichten, zum Beispiel in Form von N‑Grammen wie [Morgen, ist] oder durch einen Kernel modulierte visuelle Daten, können Wissensrepräsentationen in generativen Systemen abbilden, die durch Rekurrenz oder self‑awareness Informationen enthalten, 
+  die nicht klar definiert werden können, aber in Form von virtuellem Wissen bestehen.
+
+
+03/05/2026 Nikita Knöfel
