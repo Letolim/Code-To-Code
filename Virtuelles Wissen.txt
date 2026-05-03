@@ -39,4 +39,5 @@ Gegenthese:
 
 Schlussvolgerung:
 
- Daten in Form von Ngramen wie [Morgen, ist] oder durch einen Kernel modulierte visuelle Daten können Wissensrepräsentation in 'Generativen Systemen' abbilden welche durch Rekkurenz oder Selfawarnes Informationen beinhalten welche nicht klar definiert werden können aber in form von Virtuellem Wissen bestehen.
+ Einsichten wie zum Beispiel in Form von Ngramen wie [Morgen, ist] oder durch einen Kernel modulierte visuelle Daten können Wissensrepräsentation in 'Generativen Systemen' abbilden 
+ welche durch Rekkurenz oder Selfawarnes Informationen beinhalten welche nicht klar definiert werden können aber in form von Virtuellem Wissen bestehen.
