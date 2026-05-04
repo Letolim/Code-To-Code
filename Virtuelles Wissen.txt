@@ -79,6 +79,9 @@ Thesis:
 Antithesis:
   An interpretation of measurements from systems with self‑awareness or recurrence does not map virtual knowledge, but rather the semantic representation that the medium used enables.
 
+Summarization:
+  Through virtual knowledge, there exists alongside physical reality another reality that arises from interactions with generative systems and their self-interpretations.
+
 Conclusion:
   Insights, for example in the form of n-grams like [Tomorrow, is] or visual data modulated by a kernel, can represent knowledge in generative systems that through recurrence or self‑awareness contains information that cannot be clearly defined, but exists in form of virtual knowledge.
 
