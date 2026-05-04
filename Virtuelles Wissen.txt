@@ -35,7 +35,7 @@ Gegenthese:
   Eine Interpretation von Messwerten von Systemen mit Self‑Awareness oder Rekurrenz bildet nicht das virtuelle Wissen ab, sondern die semantische Repräsentation, welche das genutzte Medium ermöglicht.
 
 Zusammenfassung:
-  Durch virtuelles Wissen besteht parallel physischen Wirklichkeit eine weitere, welche aus Interaktionen mit generativen Systemen und deren Selbstinterpretationen hervorgeht.
+  Durch virtuelles Wissen besteht parallel zur physischen Wirklichkeit eine weitere, welche aus Interaktionen mit generativen Systemen und deren Selbstinterpretationen hervorgeht.
 
 Schlussvolgerung:
   Einsichten, zum Beispiel in Form von N‑Grammen wie [Morgen, ist] oder durch einen Kernel modulierte visuelle Daten, können Wissensrepräsentationen in generativen Systemen abbilden, die durch Rekurrenz oder self‑awareness Informationen enthalten, 
