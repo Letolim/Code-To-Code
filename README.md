@@ -2,6 +2,6 @@
 
 A gameplay video of the Dannmaku game "Boids" https://www.youtube.com/watch?v=f33sbmVeIME.
 
-[LetterSystem.bmp](https://github.com/user-attachments/files/28977436/LetterSystem.bmp)
+<img width="462" height="422" alt="LetterSystem" src="https://github.com/user-attachments/assets/cec4f290-4540-469d-aeab-ff61bd28f922" />
 
 Image showing the Symbols from the limin letter script.
