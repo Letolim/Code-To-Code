@@ -6,4 +6,4 @@ Entität gesehen als teil einer Kausalen Objektgruppe in denen die psychlogische
 P.s
 Ein Beispiel für ein System in der selben Gruppe:
 
-Ein Auto welches auf einer Kugel fährt ist auch ein Objekt mit eigenem Raum es kann auch Informationen auf einem Medium übertragen hat aber keine Möglichkeit Informationen in dem Zeichensystem der Objektgruppe zu konvertieren.
+Ein Auto welches auf einer Kugel fährt ist auch ein Objekt mit eigenem Raum (Kann eines sein wenn man es zur Textbearbeitung nutzt "Selbe Kausalgruppe") es kann auch Informationen auf einem Medium übertragen hat aber keine Möglichkeit Informationen in dem Zeichensystem der Objektgruppe zu konvertieren.
