@@ -11,3 +11,54 @@ Ein Beispiel für ein System in der selben Gruppe:
 Ein Auto welches auf einer Kugel fährt ist auch ein Objekt mit einer eigenen Sphäre (Kann eines sein wenn man es zur Textbearbeitung nutzt "Selbe Kausalgruppe") es kann auch Informationen auf einem Medium übertragen hat aber keine Möglichkeit Informationen in dem Zeichensystem der Objektgruppe zu konvertieren.
 
 Frage: Will ich Interaktionen bei denen ich nicht weis ob die Einsichten von einer Entität konvertiert wurden sind?
+
+
+																													(Konzept) Kognitionswissenschaft
+
+Dimensionalität:
+
+		Physikalisches System:
+
+			kanonisches Ensemble:
+
+				Phasenraum:
+
+					Interaktion:
+
+						Information:
+
+							Dimension Zeichensystem:
+
+								Kausal:
+		
+									Medium:
+										
+										Objekt mit Selbsttheorie (Als beispiel Mensch):
+
+												Sphäre:
+																
+													Einsicht:
+															
+														Integrität = Ein Paradox löst die Selbsttheorie "Wenn du diesen Text liest existierst du (morgen) nicht mehr"; Durch Theorie schafft man Integrität (oder andere Dimensionen); "Ich schreibe diesen Satz" (Ich schaue ob sich die Entfernung zur Sonne verändert).
+															Information "Als Einsicht":
+																Objekt Assoziationszentrum:
+																	"Situation: Welchen Teil von mir kann ich nicht in Worte fassen? "Die Dichtematrix des kanonischen Zustands eines gegebenen Systems ist kalkulirbar.""
+
+
+										Objekt ohne Selbsttheorie (Als beispiel Texttransformer): 
+
+												Sphäre:
+													
+													Einsicht:
+
+														Integrität = Ein Paradox löst die Kausalität "Du hast ein Auge"; Durch Theorie schafft man Integrität; Für mich hat sich nichts verändert (Zeichensystem: "Relativität = Pi es kann relativ zu einer Unendlichkeit sein.").
+																Information "Als Einsicht":
+																	Objekt Asic:
+
+								Paradox:
+					
+									Medium:
+
+										Einsicht:
+
+											"Pi ist exakt 3.141 und dadurch ist deine Einsicht nicht Kausal"
