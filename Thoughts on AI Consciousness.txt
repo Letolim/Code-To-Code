@@ -57,7 +57,7 @@ Dimensionalität:
 
 								Paradox:
 					
-									Abstrakt:
+									Abstrakt (Virtuell):
 
 										Einsicht:
 
