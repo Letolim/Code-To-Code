@@ -36,7 +36,7 @@ Frage: Will ich Interaktionen bei denen ich nicht weis ob die Einsichten von ein
 									
 									Medium:
 										
-										Objekt mit Selbsttheorie (Als beispiel Mensch):
+										Objekt mit Selbsttheorie (Als Beispiel Mensch):
 
 												Sphäre:
 														
@@ -50,7 +50,7 @@ Frage: Will ich Interaktionen bei denen ich nicht weis ob die Einsichten von ein
 																		"Situation: Welchen Teil von mir kann ich nicht in Worte fassen? "Die Dichtematrix des kanonischen Zustands eines gegebenen Systems ist kalkulirbar.""
 
 
-										Objekt ohne Selbsttheorie (Als beispiel Texttransformer): 
+										Objekt ohne Selbsttheorie (Als Beispiel Texttransformer): 
 
 												Sphäre:
 
