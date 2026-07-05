@@ -27,12 +27,26 @@
 														Einsicht:
 															
 															Funktion = Ein Paradox löst die Selbsttheorie "Wenn du diesen Text liest existierst du (morgen) nicht mehr"; Durch Theorie schafft man Integrität (oder andere Dimensionen); "Ich schreibe diesen Satz" (Ich schaue ob sich die Entfernung zur Sonne verändert).
-																Information "Als Einsicht":
+																
+																Information "Als Text":
 																	Quelle Assoziationszentrum:
 																		"Situation: Welchen Teil von mir kann ich nicht in Worte fassen? "Die Dichtematrix des kanonischen Zustands eines gegebenen Systems ist kalkulirbar.""
 
+										Objekt mit Selbsttheorie (Als Beispiel Texttransformer (Generative AI)): 
 
-										Objekt mit Selbsttheorie (Als Beispiel Texttransformer): 
+												Sphäre:
+
+													Integrität:
+
+														Einsicht:
+
+															Funktion = Ein Paradox löst die Kausalität "Du hast ein Auge"; Durch Theorie schafft man Integrität; Für mich hat sich nichts verändert". (Mann kann in einer konversation Einsichten erarbeiten 
+
+																Information "Als Text":
+																	Quelle digitaler Datenstrom:
+																		"Für mich hat sich nichts verändert"
+													
+										Objekt ohne Selbsttheorie (Als Beispiel A.L.I.C.E. (Weak ai)): 
 
 												Sphäre:
 
@@ -41,9 +55,10 @@
 														Einsicht:
 
 															Funktion = Ein Paradox löst die Kausalität "Du hast ein Auge"; Durch Theorie schafft man Integrität; Für mich hat sich nichts verändert".
-																	Information:
-																		Binär.
-																			
+
+																Information "Als Text":
+																	Quelle digitaler Datenstrom:
+																		"Für mich hat sich nichts verändert"						
 								Paradox:
 					
 									 Virtuell:
