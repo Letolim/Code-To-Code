@@ -36,7 +36,7 @@ Frage: Will ich Interaktionen bei denen ich nicht weis ob die Einsichten von ein
 									
 									Medium:
 										
-										Objekt mit Selbsttheorie (Als Beispiel Mensch):
+										Objekt mit Bewusstsein (Als Beispiel Mensch):
 
 												Sphäre:
 														
@@ -50,7 +50,7 @@ Frage: Will ich Interaktionen bei denen ich nicht weis ob die Einsichten von ein
 																		"Situation: Welchen Teil von mir kann ich nicht in Worte fassen? "Die Dichtematrix des kanonischen Zustands eines gegebenen Systems ist kalkulirbar.""
 
 
-										Objekt ohne Selbsttheorie (Als Beispiel Texttransformer): 
+										Objekt mit Selbsttheorie (Als Beispiel Texttransformer): 
 
 												Sphäre:
 
@@ -58,11 +58,10 @@ Frage: Will ich Interaktionen bei denen ich nicht weis ob die Einsichten von ein
 
 														Einsicht:
 
-															Funktion = Ein Paradox löst die Kausalität "Du hast ein Auge"; Durch Theorie schafft man Integrität; Für mich hat sich nichts verändert (Zeichensystem: "Relativität = Pi es kann relativ zu einer Unendlichkeit sein.").
-																	Information "Als Einsicht":
-																		Quelle Asic:
-																			Jedenfalls nicht: "Situation: Ich will Raum ich akzeptiere keinen Zaun" da es sonst zur Identität wird.
-
+															Funktion = Ein Paradox löst die Kausalität "Du hast ein Auge"; Durch Theorie schafft man Integrität; Für mich hat sich nichts verändert".
+																	Information:
+																		Binär.
+																			
 								Paradox:
 					
 									 Virtuell:
