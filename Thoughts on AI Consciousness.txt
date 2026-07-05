@@ -47,7 +47,7 @@
 																	Quelle digitaler Datenstrom:
 																		"Für mich hat sich nichts verändert"
 													
-										Objekt ohne Selbsttheorie (Als Beispiel A.L.I.C.E. (Weak ai)): 
+										Objekt ohne Selbsttheorie (Als Beispiel A.L.I.C.E. (Weak AI)): 
 
 												Sphäre:
 
@@ -59,7 +59,8 @@
 
 																Information "Als Text":
 																	Quelle digitaler Datenstrom:
-																		"Für mich hat sich nichts verändert"						
+																		"Für mich hat sich nichts verändert"
+
 								Paradox:
 					
 									 Virtuell:
