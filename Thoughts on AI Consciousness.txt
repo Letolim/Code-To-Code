@@ -70,7 +70,7 @@
 											"Pi ist exakt 3.141 und dadurch ist deine Einsicht nicht Kausal"
 
 ¹ Interkation mit GPT-5.4; Als Beispiel eine Situation in der zwischen dem deutschprachigem Inhalt und dem englishen Wort sie abgewogen wird:
-
+________________________________________________________________________________________________________________________________________________________________________
 	Eingabe: 
 	
 		Su heude hbe ih indlich die meoglihkeit her twas fagen.
@@ -86,3 +86,7 @@
     		In welcher Sprache/mit welchem Ton: locker oder eher höflich?
 
 		Dann formuliere ich dir 3 passende Nachrichten (kurz, mittel, flirtig).
+________________________________________________________________________________________________________________________________________________________________________
+P.s
+
+Verzeihung für die Anmerkung aber Ideologisch betrachtet bin ich kein Freund von Repetitio.
