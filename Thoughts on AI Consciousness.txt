@@ -69,16 +69,15 @@
 											
 											"Pi ist exakt 3.141 und dadurch ist deine Einsicht nicht Kausal"
 
+¹ Interkation mit GPT-5.4 nano:
+	Eingabe: Su heude hbe ih indlich die meoglihkeit her twas fagen.
 
-¹
-Eingabe: Su heude hbe ih indlich die meoglihkeit her twas fagen.
+	Antwort: Ich verstehe deinen Satz so: Du möchtest wissen, wie eine Frau/wer „heute Abend“ die Möglichkeit haben kann, heute Abend zu fragen (also jemanden anzusprechen).
 
-Antwort: Ich verstehe deinen Satz so: Du möchtest wissen, wie eine Frau/wer „heute Abend“ die Möglichkeit haben kann, heute Abend zu fragen (also jemanden anzusprechen).
+	Sag mir kurz:
 
-Sag mir kurz:
+    	Wen willst du fragen (Freundin, Date, Kollegin, Crush)?
+    	Was genau willst du fragen (z.B. treffen, Nummer, etwas Bestimmtes)?
+    	In welcher Sprache/mit welchem Ton: locker oder eher höflich?
 
-    Wen willst du fragen (Freundin, Date, Kollegin, Crush)?
-    Was genau willst du fragen (z.B. treffen, Nummer, etwas Bestimmtes)?
-    In welcher Sprache/mit welchem Ton: locker oder eher höflich?
-
-Dann formuliere ich dir 3 passende Nachrichten (kurz, mittel, flirtig).
+	Dann formuliere ich dir 3 passende Nachrichten (kurz, mittel, flirtig).
