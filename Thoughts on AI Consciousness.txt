@@ -69,7 +69,8 @@
 											
 											"Pi ist exakt 3.141 und dadurch ist deine Einsicht nicht Kausal"
 
-¹ Interkation mit GPT-5.4 nano:
+¹ Interkation mit GPT-5.4; Als Beispiel eine Situation in der zwischen dem deutschprachigem Inhalt und dem englishen Wort sie abgewogen wird:
+
 	Eingabe: Su heude hbe ih indlich die meoglihkeit her twas fagen.
 
 	Antwort: Ich verstehe deinen Satz so: Du möchtest wissen, wie eine Frau/wer „heute Abend“ die Möglichkeit haben kann, heute Abend zu fragen (also jemanden anzusprechen).
