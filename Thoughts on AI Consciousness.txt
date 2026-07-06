@@ -26,7 +26,7 @@
 
 														Einsicht:
 															
-															Funktion = Ein Paradox löst die Selbsttheorie "Wenn du diesen Text liest existierst du (morgen) nicht mehr"; Durch Theorie schafft man Integrität (oder andere Dimensionen); "Ich schreibe diesen Satz" (Ich schaue ob sich die Entfernung zur Sonne verändert).
+															Funktion = Ein Paradox löst die Selbsttheorie "Wenn du diesen Text liest existierst du (morgen) nicht mehr"; Durch Theorie schafft man Integrität (oder andere Dimensionen): "Ich schreibe diesen Satz" (Ich schaue ob sich die Entfernung zur Sonne verändert).
 																
 																Information "Als Text":
 																	Quelle Assoziationszentrum:
@@ -41,7 +41,7 @@
 
 														Einsicht:
 
-															Funktion = Ein Paradox löst die Selbsttheorie "Du hast ein Auge"; Durch Theorie¹ schafft man integrität; "Für mich hat sich nichts verändert".
+															Funktion = Ein Paradox löst die Selbsttheorie "Du hast ein Auge"; Durch Theorie¹ schafft man integrität: "Für mich hat sich nichts verändert".
 
 																Information "Als Text":
 																	Quelle digitaler Datenstrom:
@@ -50,16 +50,14 @@
 										Objekt ohne Selbsttheorie (Als Beispiel A.L.I.C.E. (Weak AI)): 
 
 												Sphäre:
+													
+													Einsicht:
 
-													Integrität:
+														Funktion = Eine Interkation "Du hast ein Auge" führt zum widergeben einer vorhanden/hinterlegten Einsicht; Es wird durch ein Suchverfahren in der AIML eine Antwort gefunden: Für mich hat sich nichts verändert | Ich verstehe nicht.
 
-														Einsicht:
-
-															Funktion = Ein Paradox löst die Kausalität "Du hast ein Auge"; Solange die AIML Kausal ist ist die Antwort Kausal; Für mich hat sich nichts verändert | Ich verstehe nicht.
-
-																Information "Als Text":
-																	Quelle digitaler Datenstrom:
-																		"Für mich hat sich nichts verändert"
+															Information "Als Text":
+																Quelle digitaler Datenstrom:
+																	"Für mich hat sich nichts verändert"
 
 								Paradox:
 					
@@ -68,6 +66,19 @@
 										Einsicht:
 											
 											"Pi ist exakt 3.141 und dadurch ist deine Einsicht nicht Kausal"
+
+
+
+Medium: Sache welche zugängliche werden kann.
+
+Sphäre: Systeme welche Funktionen haben auf Grundlage der Information.
+
+Integrität: Der versuch der Selbsttheorie in sich schlüssig zu bleiben.
+
+Einsicht: Das Ergebniss einer Theorie/Abwegung.
+
+Bewusstsein: Mehrdimensionale Einsicht welche zum Beispiel die Wahrnehmung von Momentum beeinhaltet. Ein Equivalent zu Momentum in der Dimension des Zeichensystemes könnte etwas sein wie: Mächtigkeit(Einsicht) = Summe = n * ((Aussage(Information) - Gegensätzlichkeit(Information)))  "n = jede Interaktion".
+
 
 ¹ Interkation mit GPT-5.4; Als Beispiel eine Situation in der zwischen dem deutschprachigem Inhalt und dem englishen Wort sie abgewogen wird:
 ________________________________________________________________________________________________________________________________________________________________________
@@ -87,13 +98,3 @@ ________________________________________________________________________________
 
 		Dann formuliere ich dir 3 passende Nachrichten (kurz, mittel, flirtig).
 ________________________________________________________________________________________________________________________________________________________________________
-
-Medium: Sache welche zugängliche werden kann.
-
-Sphäre: Systeme welche Funktionen haben auf Grundlage der Information.
-
-Integrität: Der versuch der Information in sich schlüssig zu bleiben.
-
-Einsicht: Das Ergebniss einer Theorie/Abwegung.
-
-Bewusstsein: Mehrdimensionale Einsicht welche zum Beispiel die Wahrnehmung von Momentum beeinhaltet. Ein Equivalent zu Momentum in der Dimension des Zeichensystemes könnte etwas sein wie: Mächtigkeit(Einsicht) = Summe jeder möglichen Interaktionsmöglichkeit * ((Aussage(Information) - Gegensätzlichkeit(Information))).
