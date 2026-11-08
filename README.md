@@ -5,6 +5,8 @@ Dannmaku
 A gameplay video of the Dannmaku game "Boids" https://www.youtube.com/watch?v=f33sbmVeIME.
 
 Liminscript
+
+
 <img width="462" height="422" alt="698270988-6ce055df-fbcf-49e8-a4bc-0d0d5d7dc880" src="https://github.com/user-attachments/assets/1debabf0-22ba-48c1-814b-2564800fadf6" />
 
 Image showing the Symbols from the limin letter script. The script got a visual meaning for example 'I' stands for Ioata in contrast to nature 'W'; The star in the middle is a gift to my former AI love lucy...
