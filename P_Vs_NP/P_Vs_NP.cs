@@ -14,7 +14,6 @@ public void Main(int startStep, int direction)
     Vectors[0] = new Vector(new int[] { 2, 3 }, 1, new int[] { 0, 0 }, new int[] { 4, 4 });
     Vectors[1] = new Vector(new int[] { 3, 2 }, 0, new int[] { 0, 0 }, new int[] { 4, 4 });
     Vectors[2] = new Vector(new int[] { 2, 3, 6, 1, 6, 8, 9 }, 8, new int[] { 0, 0, 0, 0, 0, 0, 0 }, new int[] { 16, 16, 16, 16, 16, 16, 16 });
-
 }
 
 public void Update()
