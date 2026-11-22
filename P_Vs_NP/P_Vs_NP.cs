@@ -1,182 +1,280 @@
-//Pseudocode; Also not sure about the rules and if the task completion time of this "algorithm" would be bounded above by a polynomial function.
 //https://en.wikipedia.org/wiki/P_versus_NP_problem
 
-public int worldWidth;
-public int worldHeight;
+public int CurrentStep;
 
-public Cube[] cubes;
-public Token movableToken;
-public Token staticToken;
 
-public int currentStep;
-
+public void Main(int startStep, int direction)
+{
+	
+}
 
 public void Update()
 {
-	if(tokensAtSamePosition)
-	return;	
 
-	if(currentStep == initiationStep)
-	{
-		tokenA.Initiate(direction);
-	}
-	
-	tokenA.Update();
-	
-	if(tokenA.x == tokenB.x && tokenA.y == tokenB.y)
-	{
-		tokensAtSamePosition = true;
-		return;
-	}
-	
-	for(int i = 0; i < cubes.Length; i ++)
-		cubes[i].UpdateDirections();
-	
-	for(int i = 0; i < cubes.Length; i ++)
-		cubes[i].Update();
 } 
 
-
-public class Token
+public class Token : DimensionalObject
 {
-	int X;
-	int Y;
-	int Direction;
-	int stopped = 0;	
 
-	public Token(int x, int y, int direction, int initiationStep)
-	{
-		X = x;
-		Y = y;
-		Direction = direction;
-	}
-	
-	public void Update(int step, Cube[] cubes)
-	{
-		if(stopped != 0)
-			return;
+	public int InitiationStep;
 
-		if(step >= intiationStep)
-		{
-			if(Direction == 0)
-				Y++;
-			if(Direction == 1)
-				X++;
-			if(Direction == 2)
-				Y--;
-			if(Direction == 3)
-				X--;
-		}
+    public Token(int dimensions[], int direction, int[] min, int[] max, int initiationStep = -1)
+    {
+        this.Dimensions = dimensions;
+        this.Direction = direction;
+        this.Dimension = DirectionToDimension(Direction);
+        this.min = min;
+        this.max = max;
+		this.InitiationStep = initiationStep;
+    }
 
-		for(int i = 0; i < cubes.Length; i ++)
-			if(cubes[i].X == X && && cubes[i].Y == Y)
-				stopped ++;
-	}
+    public void Update(int step, Vector[] vectors)
+    {
+        int[] dimensionsBeforeMoving = new int[Dimension.Length];
 
-	public void PushByCube(int direction)
-	{
-		if(Direction == 0 && tokenA.Y == Y + 1)
-			Y++;
-		if(Direction == 1 && tokenA.X == X + 1)
-			X++;
-		if(Direction == 2 && tokenA.Y == Y - 1)
-			Y--;
-		if(Direction == 3 && tokenA.X == X - 1)
-			X--;
+        for (int i = 0; i < Dimensions.Length; i++)
+            dimensionsBeforeMoving[i] = Dimension[i];
 
-		if(Y == worldHeight + 1)
-			Y = 0;
+        if (step >= intiationStep)
+            Move();
 
-		if(X == worldWidth + 1)
-			X = 0;
+        int[] dimensionsBeforeVectorInteraction = new int[Dimension.Length];
 
-		if(Y == -1)
-			Y = worldHeight;
-		
-		if(X == -1)//You could avoid going -1 by adding a switch that stores the state of wrapping to the other side while Direction == Direction
-			X = worldWidth;
+        for (int i = 0; i < Dimensions.Length; i++)
+            dimensionsBeforeVectorInteraction[i] = Dimension[i];
+
+        while (true)
+        {
+            bool gotMovedByAVector = false;
+
+            for (int i = 0; i < vectors.Length; i++)
+            {
+                bool dimensionsEqualThisDimensions = true; // FYI can only equal one vector since the Vectors them self cant equal each other...
+
+                for (int n = 0; n < vectors[i].Dimensions.Length; n++)
+                    for (int o = 0; o < Dimensions.Length; o++)
+                    {
+                        if (vectors[i].Dimensions[n] != Dimensions[o])
+                            dimensionsEqualThisDimensions = false;
+                    }
+
+                if (dimensionsEqualThisDimensions)
+                {
+
+                    for (int n = 0; n < Dimensions.Length; n++)
+                    {
+                        if (vectors[i].Direction == n)
+                        {
+                            Dimensions[n]++;
+
+                            if (Dimensions[n] == max[n])
+                                Dimensions[n] = min[n];
+
+                            break;
+                        }
+
+                        if (vectors[i].Direction == n + 1)
+                        {
+                            Dimensions[n]--;
+
+                            if (Dimensions[n] == min[n])
+                                Dimensions[n] = max[n];
+
+                            break;
+                        }
+                    }
+
+                    gotMovedByAVector = true;
+
+                    break;
+                }
+            }
+
+            bool isLooping = true;
+
+            for (int i = 0; i < Dimensions.Length; i++)
+                if (dimensionsBeforeVectorInteraction[i] != Dimension[i])
+                    isLooping = false;
+
+            if (isLooping)
+            {
+                for (int i = 0; i < Dimensions.Length; i++)
+                    Dimensions[i] = dimensionsBeforeMoving[i];
+            }
+
+            if (!gotMovedByAVector)
+                return;
+        }
 	}
 }
 
-public class Cube
+public class Vector : DimensionalObject
 {
-	int X;
-	int Y;
-	int Direction; // 0 up 1 right 2 down 3 left
 
-	public Cube(int x, int y, int direction)
+    public Vector(int dimensions[], int direction, int[] min, int[] max)
 	{
-		X = x;
-		Y = y;
-		Direction = direction;
+		this.Dimensions = dimensions;
+		this.Direction = direction;
+		this.Dimension = DirectionToDimension(Direction);
+        this.min = min;
+		this.max = max;
 	}
 
-	public void UpdateDirections(int index, Cube[] cubes)
+	public int Reflect(int direction, int dimensions)
 	{
-			for(int i = 0; i < cubes.Length; i ++)
-			{
-				if(i == index)
-					continue;
 
-				if(Direction == 0 && cubes[i].Direction == 2 && cubes[i].Y == Y + 2)
-				{
-					Direction = 3;
-				}
-				
-				if(Direction == 1 && cubes[i].Direction == 3 && cubes[i].X == X + 2)
-				{
-					Direction = 0;
-				}
+        for (int i = 0; i < dimensions; i ++)
+        {
+            if (Direction == i)
+            {
+                Direction += 2;
 
-				if(Direction == 2 && cubes[i].Direction == 0 && cubes[i].Y == Y - 2)
-				{
+                if (Direction >= dimensions * 2)
+				{  
 					Direction = 1;
+					break;
 				}
+            }
 
-				if(Direction == 3 && cubes[i].Direction == 1 && cubes[i].X == X - 2)
-				{
-					Direction = 2;
+            if (Direction == i + 1)
+            {
+                Direction += 2;
+
+                if (Direction >= dimensions * 2)
+				{   
+					Direction = 0;
+					break;
 				}
-			}
+            }
+        }
 	}
-	
 
-	public void Update(int index, Cube[] cubes, int worldWidth, int worldHeight, int tokenA)
+    public void Update(int index, Vector[] vectors)
 	{
 
-		if(Direction == 0 && tokenA.Y == Y + 1)
-			tokenA.PushByCube(Direction);
-				
-		if(Direction == 1 && tokenA.Y == X + 1)
-			tokenA.PushByCube(Direction);
+		for (int i = 0; i < vectors.Length; i++)
+		{
+			if (i == index)
+				continue;
 
+			if (Dimension != vectors[i].Dimension || Direction == vectors[i].Direction)
+				continue;
 
-		if(Direction == 2 && tokenA.Y == Y - 1)
-			tokenA.PushByCube(Direction);
+			if (IsOnSameComplexPlane(Dimension, vectors[i].Dimension))
+            {
+                for (int i = 0; i < Dimensions.Length; i ++)
+                {
+					if (Direction == i)
+					{
+						for (int n = 0; n < vectors.Length; n ++)
+							if (vectors[n].Direction == n + 1)
+                            {
+								if (Dimensions[Dimension] + 1 == vectors[n].Dimensions[vectors[i].Dimension] - 1)
+                                {
+									Direction = Reflect(Direction, dimensions.Length);
+									Dimension = DirectionToDimension(Direction);
+                                    vectors[n].Direction = Reflect(worldObjects[n].Direction, vectors[n].dimensions.Length);
+                                    vectors[n].Dimension = DirectionToDimension(vectors[n].Direction);
+                                    return;
+                                }
+                            }
+                    }
 
+                    if (Direction == i + 1)
+                    {
+                        for (int n = 0; n < vectors.Length; n ++)
+                            if (vectors[n].Direction == i)
+                            {
+                                if (Dimensions[Dimension] - 1 == vectors[n].Dimensions[vectors[n].Dimension] + 1)
+                                {
+                                    Direction = Reflect(Direction, dimensions.Length);
+                                    Dimension = DirectionToDimension(Direction);
+                                    vectors[n].Direction = Reflect(vectors[n].Direction, vectors[n].dimensions.Length);
+                                    vectors[n].Dimension = DirectionToDimension(vectors[n].Direction);
+                                    return;
+                                }
+                            }
+                    }
+                }
+			}
 
-		if(Direction == 3 && tokenA.Y == X - 1)
-			tokenA.PushByCube(Direction);
-
-	
-		if(Direction == 0)
-			Y++;
-		if(Direction == 1)
-			X++;
-		if(Direction == 2)
-			Y--;
-		if(Direction == 3)
-			X--;
-	
-		if(Y == worldHeight + 1)
-			Y = 0;
-
-		if(X == worldWidth + 1)
-			X = 0;
-
-		if(Y == -1)
-			Y = worldHeight;
-		
-		if(X == -1)
+			Move();
+        }
 	}
+}
+
+public abstract class DimensionalObject
+{
+    public int[] Dimensions;
+    public int Direction;
+    public int Dimension;
+    public int[] min;
+    public int[] max;
+
+	public void Move()
+	{
+        for (int i = 0; i < Dimensions.Length; i++)
+        {
+            if (Direction == i)
+            {
+                Dimensions[i]++;
+
+                if (Dimensions[i] == max[i])
+                    Dimensions[i] = min[i];
+
+                return;
+            }
+
+            if (Direction == i + 1)
+            {
+                Dimensions[i]--;
+
+                if (Dimensions[i] == min[i])
+                    Dimensions[i] = max[i];
+
+                return;
+            }
+        }
+    }
+
+    public int DirectionToDimension()
+    {
+        for (int i = 0; i < Dimensions; i++)
+        {
+            if (Direction == i)
+                return i;
+
+            if (Direction == i + 1)
+                return i;
+        }
+    }
+
+    public bool IsOnSameComplexPlane(int excludedDimensionA, int excludedDimensionB, DimensionalObject worldObject)
+    {
+        if (excludedDimensionA != excludedDimensionB)
+            return false;
+
+        if (Dimension != worldObject.Dimension)
+            return false;
+
+        for (int i = 0; i < Dimensions.Length; i++)
+        {
+            if (i == worldObject.Dimensions.Length)
+                return true;
+
+            if (i == excludedDimensionA)
+                continue;
+
+            for (int n = 0; n < worldObject.Dimensions.Length; n++)
+            {
+                if (Dimensions[i] != worldObject.Dimensions[n])
+                    return false;
+
+                if (n == excludedDimensionB)
+                    continue;
+            }
+        }
+
+        return true;
+    }
 }
