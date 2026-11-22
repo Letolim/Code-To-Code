@@ -9,8 +9,8 @@ public void Main(int startStep, int direction)
 {
     Token TokenA = new Token(new int[] { 0, 0 }, 1, new int[] { 0, 0 }, new int[] { 4, 4 }, 4);
     Token TokenB = new Token(new int[] { 0, 0 }, 0, new int[] { 0, 0 }, new int[] { 4, 4 }, null);
+	
     Vectors = new Vector[3];
-
     Vectors[0] = new Vector(new int[] { 2, 3 }, 1, new int[] { 0, 0 }, new int[] { 4, 4 });
     Vectors[1] = new Vector(new int[] { 3, 2 }, 0, new int[] { 0, 0 }, new int[] { 4, 4 });
     Vectors[2] = new Vector(new int[] { 2, 3, 6, 1, 6, 8, 9 }, 8, new int[] { 0, 0, 0, 0, 0, 0, 0 }, new int[] { 16, 16, 16, 16, 16, 16, 16 });
@@ -18,6 +18,7 @@ public void Main(int startStep, int direction)
 
 public void Update()
 {
+	
     TokenA.Update(CurrentStep, Vectors);
     TokenA.Update(CurrentStep, Vectors);
 
@@ -29,7 +30,6 @@ public void Update()
 
 public class Token : DimensionalObject
 {
-
 	public int InitiationStep;
 
     public Token(int[] dimensions, int direction, int[] min, int[] max, int initiationStep = -1)
@@ -44,6 +44,7 @@ public class Token : DimensionalObject
 
     public void Update(int step, Vector[] vectors)
     {
+	
         int[] dimensionsBeforeMoving = new int[Dimension.Length];
 
         for (int i = 0; i < Dimensions.Length; i++)
@@ -227,6 +228,7 @@ public abstract class DimensionalObject
 
 	public void Move()
 	{
+		
         for (int i = 0; i < Dimensions.Length; i++)
         {
             if (Direction == i)
@@ -253,6 +255,7 @@ public abstract class DimensionalObject
 
     public int DirectionToDimension()
     {
+		
         for (int i = 0; i < Dimensions; i++)
         {
             if (Direction == i)
@@ -265,6 +268,7 @@ public abstract class DimensionalObject
 
     public bool IsOnSameComplexPlane(int excludedDimensionA, int excludedDimensionB, DimensionalObject worldObject)
     {
+		
         if (excludedDimensionA != excludedDimensionB)
             return false;
 
