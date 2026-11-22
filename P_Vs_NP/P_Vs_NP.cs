@@ -33,7 +33,7 @@ public void Update()
 	}
 	else
 		{
-			for (int n = 0; n < TokenB.Dimensions.Length; n++)
+			for (int n = 0; n <= TokenB.Dimensions.Length; n++)
 			{
 				if(TokenB.Dimensions[n] != TokenA.Dimensions[n])
 				{	
