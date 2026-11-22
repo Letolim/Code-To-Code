@@ -1,16 +1,31 @@
 //https://en.wikipedia.org/wiki/P_versus_NP_problem
 
 public int CurrentStep;
-
+public Token TokenA;
+public Token TokenB;
+public Vector[] Vectors;
 
 public void Main(int startStep, int direction)
 {
-	
+    Token TokenA = new Token(new int[] { 0, 0 }, 1, new int[] { 0, 0 }, new int[] { 4, 4 }, 4);
+    Token TokenB = new Token(new int[] { 0, 0 }, 0, new int[] { 0, 0 }, new int[] { 4, 4 }, null);
+    Vectors = new Vector[3];
+
+    Vectors[0] = new Vector(new int[] { 2, 3 }, 1, new int[] { 0, 0 }, new int[] { 4, 4 });
+    Vectors[1] = new Vector(new int[] { 3, 2 }, 0, new int[] { 0, 0 }, new int[] { 4, 4 });
+    Vectors[2] = new Vector(new int[] { 2, 3, 6, 1, 6, 8, 9 }, 8, new int[] { 0, 0, 0, 0, 0, 0, 0 }, new int[] { 16, 16, 16, 16, 16, 16, 16 });
+
 }
 
 public void Update()
 {
+    TokenA.Update(CurrentStep, Vectors);
+    TokenA.Update(CurrentStep, Vectors);
 
+    for (int i = 0; i < Vectors.Length; i++)
+        Vectors[i].Update(i, Vectors);
+
+    CurrentStep++;
 } 
 
 public class Token : DimensionalObject
@@ -18,7 +33,7 @@ public class Token : DimensionalObject
 
 	public int InitiationStep;
 
-    public Token(int dimensions[], int direction, int[] min, int[] max, int initiationStep = -1)
+    public Token(int[] dimensions, int direction, int[] min, int[] max, int initiationStep = -1)
     {
         this.Dimensions = dimensions;
         this.Direction = direction;
