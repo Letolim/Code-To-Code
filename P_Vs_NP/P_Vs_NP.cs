@@ -18,6 +18,33 @@ public void Main(int startStep, int direction)
 
 public void Update()
 {
+	bool tokenAequalsTokenB = true;
+	
+	if(TokenA.Dimensions.Length < TokenB.Dimensions.Length)
+	{
+		for (int n = 0; n < TokenA.Dimensions.Length; n++)
+		{
+			if(TokenA.Dimensions[n] != TokenB.Dimensions[n])
+			{	
+				tokenAequalsTokenB = false;
+				break;
+			}
+		}
+	}
+	else
+		{
+			for (int n = 0; n < TokenB.Dimensions.Length; n++)
+			{
+				if(TokenB.Dimensions[n] != TokenA.Dimensions[n])
+				{	
+					tokenAequalsTokenB = false;
+					break;
+				}
+			}
+		}
+
+	if(tokenAequalsTokenB)
+		return;// TokenA == TokenB.
 	
     TokenA.Update(CurrentStep, Vectors);
     TokenA.Update(CurrentStep, Vectors);
