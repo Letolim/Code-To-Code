@@ -7,7 +7,7 @@ public Vector[] Vectors;
 
 public void Main(int startStep, int direction)
 {
-    Token TokenA = new Token(new int[] { 0, 0 }, 1, new int[] { 0, 0 }, new int[] { 4, 4 }, 4);
+    Token TokenA = new Token(new int[] { 0, 0 }, direction, new int[] { 0, 0 }, new int[] { 4, 4 }, startStep);
     Token TokenB = new Token(new int[] { 0, 0 }, 0, new int[] { 0, 0 }, new int[] { 4, 4 }, null);
 	
     Vectors = new Vector[3];
@@ -149,7 +149,7 @@ public class Token : DimensionalObject
         }
 
 		//You basically only need to check if tokenA is looping and then if the other objects alow for a change.
-		//If yes exit the application ("Input = " + startStep + " does not lead to tokenA equaling tokenB");
+		//If yes exit the application ("Input StartStep = " + startStep + "with direction = " + direction + " does not lead to tokenA equaling tokenB");
 
 		
 		//Imagine that this section isnt psedo code and the values are hashed so that they together represnt a deterministic state of the algorithm.
