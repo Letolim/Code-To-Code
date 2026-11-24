@@ -148,7 +148,7 @@ public class Token : DimensionalObject
                 return;
         }
 
-		//You bassicaly only need to check if tokenA is looping and then if the other objects alow for a change.
+		//You basically only need to check if tokenA is looping and then if the other objects alow for a change.
 		//If yes exit the application ("Input" + startStep + "does not lead to tokenA equaling tokenB");
 
 		
