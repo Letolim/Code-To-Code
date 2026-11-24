@@ -149,7 +149,7 @@ public class Token : DimensionalObject
         }
 
 		//You basically only need to check if tokenA is looping and then if the other objects alow for a change.
-		//If yes exit the application ("Input" + startStep + "does not lead to tokenA equaling tokenB");
+		//If yes exit the application ("Input = " + startStep + " does not lead to tokenA equaling tokenB");
 
 		
 		//Imagine that this section isnt psedo code and the values are hashed so that they together represnt a deterministic state of the algorithm.
