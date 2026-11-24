@@ -147,6 +147,26 @@ public class Token : DimensionalObject
             if (!gotMovedByAVector)
                 return;
         }
+
+		//You bassicaly only need to check if tokenA is looping and then if the other Objects alow for a change.
+		//If yes exit the application ("Input" + startStep + "does not lead to tokenA equaling tokenB");
+
+		
+		//Imagine this isnt psedo code and the values are hashed so that they together represnt a deterministic state of the algorithm.
+		//int sum; 
+		//foreach(DimensionalObject object in objects)
+		//	for(int i = 0; i < object.Dimensions; i ++)
+		// 		sum += object.Dimensions[i];
+		//
+		//bool satetknown = false;
+		//for(int n = 0; n < savedsum.length; n ++)
+		// if(sum == savedsum)
+		// 		stateKnown = false;
+		//if(!stateKnown)
+		//	savedSum.Add(sum);
+		//
+		//if(sum == savedsumm && tokenA.Dimensions == TokenA.SavedDimensions)
+		//Environment.Exit("You verifaction attempt failed");
 	}
 }
 
