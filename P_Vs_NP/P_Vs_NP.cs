@@ -7,6 +7,7 @@ public class Main
     public Token TokenB;
     public Vector[] Vectors;
     public string States[];
+    //public int StepsLeft = 0;
 
     public void Main(int startStep, int direction)
     {
@@ -35,6 +36,14 @@ public class Main
 
         CurrentStep = 0;
 
+        //StepsLeft = 0;
+        //
+        //StepsLeft += TokenA.MaxSteps;
+        //StepsLeft += TokenB.MaxSteps;
+        //
+        //for (int i = 0; i < Vectors.Length; i++)
+        //  StepsLeft += Vectors[i].MaxSteps;
+
 
         while (true)
         {
@@ -45,6 +54,9 @@ public class Main
 
             if (state == 2)
                 break;//tokenA cant equal tokenB or there is a more efficient solution
+
+            if (state == 3)
+                break;//All Vectors and Tokens reached there final destination
         }
     }
 
@@ -92,6 +104,15 @@ public class Main
 
         SaveState(state);
 
+        //for (int i = 0; i < Vectors.Length; i++)
+        //  if(Vectors[i].MaxSteps <= CurrentStep)
+        //      stepsLeft--;
+        //if(CurrentStep >= TokenA.InitiationStep && TokenA.MaxSteps + TokenA.InitiationStep <= CurrentStep)
+        //      stepsLeft--;
+        //
+        //if (stepsLeft == 0)
+        //return 3;
+
         CurrentStep++;
 
         return 0;
@@ -100,7 +121,7 @@ public class Main
     public bool ContainsState(string state)
     {
         for (int i = 0; i < States.Length; i++)
-            if (States[i] == null && States[i] == state)
+            if (States[i] != null && States[i] == state)
                 return true;
 
         return false;
@@ -151,10 +172,21 @@ public class Main
         }
     }
 
-    //public string SaveState(DimensionalObject[][] objects)
-    //{
+    public string GetState(DimensionalObject[][] objects)
+    {
+        string state = "";
 
-    //}
+        for (int i = 0; i < objects.Length; i++)
+            for (int n = 0; n < objects[i].Length; n++)
+            {
+                for (int o = 0; o < objects[i][n].Dimensions.Length; o++)
+                    state += "" + objobjects[i][n].Dimensions[o];
+
+                state += "" + objobjects[i][n].Direction;                                      
+            }
+
+        return state;
+    }
 
     public class Token : DimensionalObject
     {
@@ -169,7 +201,7 @@ public class Main
             this.Min = min;
             this.Max = max;
             this.InitiationStep = initiationStep;
-            this.States = new string[Min * 2 + Max * 2];
+            //this.MaxSteps = maxSteps;
         }
 
         public void Update(int step, Vector[] vectors)
@@ -263,6 +295,7 @@ public class Main
             this.Dimension = DirectionToDimension(Direction);
             this.Min = min;
             this.Max = max;
+            //this.MaxSteps = maxSteps;
         }
 
         public int Reflect(int direction, int dimensions)
@@ -355,6 +388,7 @@ public class Main
         public int Dimension;
         public int[] Min;
         public int[] Max;
+        //public int MaxSteps;
 
         public void Move()
         {
@@ -428,7 +462,7 @@ public class Main
     }
 }
 
-Copyright (c) 25/11/2026 Nikita Knöfel.
+Copyright (c) 26/11/2026 Nikita Knöfel.
 This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0). You are
 free to share — copy and redistribute the material in any medium or format — and adapt — remix,
 transform, and build upon the material for any purpose, even commercially — under the following terms:
